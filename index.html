@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Ping pong</title>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <!--Jumbotron for a welcome message--->
+    <div class="jumbotron">
+      <h1 class="text-center">Ping Pong</h1>
+      <p class="text-center">Enjoy the game!</p>
+    </div>
+    <!--Aside for the publisher's information--->
+    <div class="aside" height=100%>
+      <h1>About Ping Pong</h1>
+      <h3>Created by:</h3>
+      <p>RahmaKevo</p>
+      <h3>GitHub Username/URL:</h3>
+      <p>rahmakevo</p>
+      <h3>Level 2 Test for:</h3>
+      <p>Jscript</p>
+    </div>
+
+    <!--Main area where the body is written--->
+    <div class="main">
+      <h1>Let's play!</h1>
+      <h3>Rules:</h3>
+      <p>Ping Pong will count up to your number from 1 with the following specifications:</p>
+      <ol>
+        <li>Numbers divisible by 15 become "pingpong"</li>
+        <li>Numbers divisible by 3 become "ping"</li>
+        <li>Numbers divisible by 5 become "pong"</li>
+      </ol>
+      <div class="blanks">
+        <form id="blank" action="index.html" method="post">
+          <label for="input">
+            <input type="text" name="" value="" id="input" placeholder="Enter number">
+          </label>
+          <button type="submit" name="button">submit</button>
+        </form>
+      </div>
+
+      <div id = "output" style="display:none;">
+        <ol>
+
+        </ol>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,22 @@
+/*Styling for my aside*/
+.aside{
+ margin-left: 30px;
+ height: 100%;
+ margin-top: 40px;
+ display: inline-block;
+ margin-bottom: 15px;
+ float: left;
+ opacity: 0.3;
+ background-color: #fff933;
+ background-size: cover;
+
+}
+/*Styling for my main section*/
+.main{
+  /*float: center;*/
+  margin-top: 90px;
+  margin-left: 400px;
+  background-color: #33ffc7;
+  opacity: 0.9;
+
+}
